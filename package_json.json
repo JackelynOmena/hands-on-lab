@@ -1,0 +1,26 @@
+{
+  "name": "book-review-application",
+  "version": "1.0.0",
+  "description": "Book Review Application with Express.js API and Node.js Client",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js",
+    "test": "node test_all.js"
+  },
+  "keywords": [
+    "express",
+    "books",
+    "api",
+    "jwt",
+    "axios"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.6.0"
+  }
+}
