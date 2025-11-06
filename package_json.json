@@ -4,10 +4,10 @@
   "description": "Book Review Application with Express.js API and Node.js Client",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "client": "node client.js",
-    "test": "node test_all.js"
-  },
+  "start": "node book_review_server.js",
+  "client": "node book_review_client.js",
+  "test": "node test_all_endpoints.js"
+},
   "keywords": [
     "express",
     "books",
